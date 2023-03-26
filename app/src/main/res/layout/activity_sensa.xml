@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:menu="@menu/navigation"
+    android:layout_height="match_parent"
+    tools:context="com.example.eyasu.dhugaatokkicha.sensa">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="2dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="17dp"
+            android:textStyle="bold"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="22dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/note23" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/floatingActionButton"
+            android:layout_centerHorizontal="true"
+            android:background="#151616"
+            android:max="10"
+            android:progress="3"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

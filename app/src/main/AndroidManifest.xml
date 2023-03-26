@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eyasu.dhugaatokkicha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dht2"
+        android:label="Dhugaa tokkicha"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main9Activity"
+            android:label="Dhugaa Tokkicha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".screen.brightness.ChangeScreenBrightnessUseSeekbarActivity" />
+        <activity
+            android:name=".splash"
+            android:label="Dhugaa Tokkicha"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sensa"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".gaffii"
+            android:parentActivityName=".Main9Activity" />
+        <activity android:name=".Protes" />
+        <activity
+            android:name=".hojiig"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".duef"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".guyyasod"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".desse"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".waq"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".nyat"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".essajira"
+            android:parentActivityName="" />
+        <activity
+            android:name=".hojigofta"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".sanbat"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".cubburra"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".dhifama"
+            android:parentActivityName=".gaffii" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ajanda"
+            android:label="@string/title_activity_ajanda"
+            android:parentActivityName=".Main9Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".circle" />
+        <activity
+            android:name=".newnot"
+            android:parentActivityName=".Main9Activity" />
+        <activity
+            android:name=".Noteediter"
+            android:parentActivityName=".newnot" />
+        <activity
+            android:name=".sola"
+            android:parentActivityName=".Main9Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".solafrst"
+            android:label="Sola"
+            android:parentActivityName=".sola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".solasnd"
+            android:label="Sola"
+            android:parentActivityName=".sola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".solasrd"
+            android:label="Christ Alone"
+            android:parentActivityName=".sola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="For the Glory of God"
+            android:parentActivityName=".sola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".selectactiviy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main4Activity"></activity>
+    </application>
+
+</manifest>

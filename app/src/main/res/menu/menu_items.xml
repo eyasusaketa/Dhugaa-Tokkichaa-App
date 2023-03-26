@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/menu_speed"
+            android:title="speed"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menu_radius"
+            android:title="radius"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menu_isRotating"
+            android:title="is_rotating"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menu_firstChildPosition"
+            android:title="first_child_position"
+            app:showAsAction="never" />
+    </menu>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:textColor="#5a8747"
+            android:icon="@drawable/pen"
+            android:title="Write note" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/got"
+
+            android:title="Go to Bible(A/o)" />
+
+
+    </group>
+
+    <item android:title="Dhugaa Tokkicha"   >
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/tele"
+                android:title="Telegram Group" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="About"
+                />
+        </menu>
+    </item>
+
+</menu>
